@@ -88,6 +88,9 @@
         font-size:15vw;
         margin:1vh auto;
     }
+    .request p{
+    text-align: center;
+    }
     .hopque img {
         width:30%;
         display: block;

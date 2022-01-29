@@ -8,7 +8,7 @@ $(document).ready(function () {
             outputP.style.fontSize="3vw";
         } else {
             console.log("Dien thoai")
-            outputP.style.fontSize="7vw";
+            outputP.style.fontSize="5vw";
         }
         
         if (ketqua ==0) {

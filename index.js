@@ -37,6 +37,8 @@ $(document).ready(function () {
                 outputP.innerHTML="Lấy chồng(vợ) không cần NY"
             } else if (ketqua==9){
                 outputP.innerHTML="Độc thân vui tính"
+            } else {
+                outputP.innerHTML="Ế nửa năm"
             }
             hieuung.style.animation="none";
         }

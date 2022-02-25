@@ -1,6 +1,7 @@
 $(document).ready(function () {
     $(".hopque img").click(function (e) { 
-        var ketqua = Math.floor(Math.random() * 10);
+        var ketqua = Math.floor((Math.random() * 10)+1);
+        console.log(ketqua);
         var outputP = document.getElementById("trave");
         var manhinh = screen.width;
         var hieuung = document.getElementById("animate");  
@@ -8,18 +9,16 @@ $(document).ready(function () {
             console.log("May tinh");
             outputP.style.fontSize="3vw";
         } else {
-            console.log("Dien thoai")
             outputP.style.fontSize="5vw"; 
         }
         if (manhinh>799) {
             traketqua();
         }   else {
-            console.log("DT");
             setTimeout(traketqua,1500);
                                  
         }
         function traketqua(){
-            if (ketqua ==0) {
+            if (ketqua ==1) {
             outputP.innerHTML="Ế"
             } else if (ketqua==2){
                 outputP.innerHTML="Có NY nhưng 3 tháng ctay"
